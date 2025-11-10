@@ -24,6 +24,8 @@
     <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#compostoPor -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#compostoPor">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#PlanoTreino"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Exercicio"/>
     </owl:ObjectProperty>
@@ -33,6 +35,8 @@
     <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#indicadoPara -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#indicadoPara">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Treino"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Objetivo"/>
     </owl:ObjectProperty>
@@ -42,6 +46,8 @@
     <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#recebePlano -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#recebePlano">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Pessoa"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#PlanoTreino"/>
     </owl:ObjectProperty>
@@ -51,8 +57,32 @@
     <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#recomendadoPara -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#recomendadoPara">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Exercicio"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Pessoa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#temIntensidade -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#temIntensidade">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Exercicio"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Intensidade"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#temNivelExperiencia -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#temNivelExperiencia">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Pessoa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#NivelExperiencia"/>
     </owl:ObjectProperty>
     
 
@@ -60,8 +90,21 @@
     <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#temObjetivo -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#temObjetivo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Pessoa"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Objetivo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#temRestricao -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#temRestricao">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Pessoa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#RestricaoFisica"/>
     </owl:ObjectProperty>
     
 
@@ -69,6 +112,8 @@
     <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#trabalhaGrupo -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#trabalhaGrupo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Exercicio"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#GrupoMuscular"/>
     </owl:ObjectProperty>
@@ -86,45 +131,63 @@
     
 
 
-    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Dificuldade -->
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#altura -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Dificuldade">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#altura">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Pessoa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#dificuldade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#dificuldade">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Exercicio"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#DuracaoRecomendada -->
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#duracaoRecomendada -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#DuracaoRecomendada">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#duracaoRecomendada">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Exercicio"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Intensidade -->
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#idade -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Intensidade">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#idade">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Pessoa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#musculosTrabalhados -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#musculosTrabalhados">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Exercicio"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#MusculosTrabalhados -->
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#peso -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#MusculosTrabalhados">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Exercicio"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#peso">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Pessoa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Tipo -->
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#tipo -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Tipo">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#tipo">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Exercicio"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
@@ -142,6 +205,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Alta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Alta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Intensidade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Avancado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Avancado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#NivelExperiencia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Baixa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Baixa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Intensidade"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Exercicio -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Exercicio"/>
@@ -154,10 +241,56 @@
     
 
 
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Hipertensao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Hipertensao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#RestricaoFisica"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Homem -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Homem">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Pessoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Iniciante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Iniciante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#NivelExperiencia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Intensidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Intensidade"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Intermediario -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Intermediario">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#NivelExperiencia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#LesaoNoJoelho -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#LesaoNoJoelho">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#RestricaoFisica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Moderada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Moderada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Intensidade"/>
     </owl:Class>
     
 
@@ -167,6 +300,12 @@
     <owl:Class rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Mulher">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#Pessoa"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#NivelExperiencia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#NivelExperiencia"/>
     
 
 
@@ -185,6 +324,12 @@
     <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#PlanoTreino -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#PlanoTreino"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#RestricaoFisica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#RestricaoFisica"/>
     
 
 
