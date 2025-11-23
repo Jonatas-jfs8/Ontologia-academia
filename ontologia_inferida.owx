@@ -1,0 +1,2748 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/douglasventura/ontologies/2025/10/untitled-ontology-12"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/douglasventura/ontologies/2025/10/untitled-ontology-12">
+    <Prefix name="" IRI="http://www.semanticweb.org/douglasventura/ontologies/2025/10/untitled-ontology-12#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="swrla" IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    <Prefix name="untitled-ontology-7" IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7#"/>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:ExercicioMembrosInferiores"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:Homem"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:Intensidade"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:MembrosSuperiores"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:Mulher"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:NivelExperiencia"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:Objetivo"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:OutrasRestricoes"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:PessoaGrupoDeRisco"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:PessoaProblemaColuna"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:PlanoTreino"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaArticulacoes"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaColuna"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:Treino"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:TreinoCardio"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:TreinoFlexibilidade"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:TreinoForca"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:TreinoFuncional"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:TreinoHardcore"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-7:TroncoCentral"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:indicadoPara"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:recomendadoPara"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temNivelExperiencia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temObjetivo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:altura"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:dificuldade"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:duracaoRecomendada"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:idade"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:musculosTrabalhados"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:peso"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tipo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AbdominalAna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AbdominalCarlos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AgachamentoAna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BarraFixaPedro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LegPressJoao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LevantamentoTerraMaria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PolichineloCarlos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RemadaJoao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RemadaPedro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SupinoMaria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Abdomen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:AgachamentoMaria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Ana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Antebraco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Arritmia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Asma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Biceps"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:BursiteNoOmbro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Carlos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:CondromalaciaPatelar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Diabetes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Dorsal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Emagrecimento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Epicondilite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Escoliose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:EsteiraDoCarlos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:FascitePlantar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:GanharForca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Gluteos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Gravidez"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:HerniaDeDisco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Hipercifose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Hiperlordose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Hipertensao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Hipertrofia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Hipotensao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeAlta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeBaixa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeModerada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:João"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Labirintite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LateralDoQuadril"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LegPressAna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LesaoNoMaguitoRotador"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LevantamentoTerraPedro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Lombalgia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Lombar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Maria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:NivelAvancado"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:NivelIniciante"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:NivelIntermediario"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Ombros"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Panturrilhas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:ParteInternaDaCoxa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Pedro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Peitoral"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDaAna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDaMaria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDoCarlos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDoJoao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDoPedro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PosteriorDaCoxa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Quadriceps"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:ResistenciaMuscular"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:SaudeBemEstar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:SupinoDoJoao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:TendinitePatelas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Trapezio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Triceps"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="untitled-ontology-7:ExercicioMembrosInferiores"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+                <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <DataSomeValuesFrom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:idade"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="untitled-ontology-7:PessoaGrupoDeRisco"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <ObjectUnionOf>
+                <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                    <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="untitled-ontology-7:PessoaProblemaColuna"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                <Class abbreviatedIRI="untitled-ontology-7:ProblemaColuna"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="untitled-ontology-7:TreinoHardcore"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+            <ObjectHasValue>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+                <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeAlta"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:ExercicioMembrosInferiores"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:ExercicioMembrosInferiores"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+                <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:ExercicioMembrosInferiores"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+            <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:Homem"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+        <Class abbreviatedIRI="untitled-ontology-7:PessoaGrupoDeRisco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <ObjectUnionOf>
+                <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                    <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <DataSomeValuesFrom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:idade"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+        <ObjectUnionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="untitled-ontology-7:idade"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:integer"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:MembrosSuperiores"/>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:Mulher"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:OutrasRestricoes"/>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:PessoaGrupoDeRisco"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:PessoaGrupoDeRisco"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <ObjectUnionOf>
+                <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                    <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:PessoaGrupoDeRisco"/>
+        <ObjectUnionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:PessoaProblemaColuna"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:PessoaProblemaColuna"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                <Class abbreviatedIRI="untitled-ontology-7:ProblemaColuna"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:PessoaProblemaColuna"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+            <Class abbreviatedIRI="untitled-ontology-7:ProblemaColuna"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaArticulacoes"/>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaColuna"/>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:TreinoCardio"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Treino"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:TreinoFlexibilidade"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Treino"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:TreinoForca"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Treino"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:TreinoFuncional"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Treino"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:TreinoHardcore"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:TreinoHardcore"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+            <ObjectHasValue>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+                <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeAlta"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:TreinoHardcore"/>
+        <ObjectHasValue>
+            <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+            <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeAlta"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-7:TroncoCentral"/>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+                <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+                <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="untitled-ontology-7:ExercicioMembrosInferiores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+                <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+            <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+            <ObjectHasValue>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+                <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeAlta"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+            <ObjectHasValue>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+                <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeAlta"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="untitled-ontology-7:TreinoHardcore"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+            <ObjectHasValue>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+                <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeAlta"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+        <ObjectHasValue>
+            <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+            <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeAlta"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <ObjectUnionOf>
+                <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                    <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <ObjectUnionOf>
+                <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                    <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="untitled-ontology-7:PessoaGrupoDeRisco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <ObjectUnionOf>
+                <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                    <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+        <ObjectUnionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                <Class abbreviatedIRI="untitled-ontology-7:ProblemaColuna"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                <Class abbreviatedIRI="untitled-ontology-7:ProblemaColuna"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="untitled-ontology-7:PessoaProblemaColuna"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                <Class abbreviatedIRI="untitled-ontology-7:ProblemaColuna"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+            <Class abbreviatedIRI="untitled-ontology-7:ProblemaColuna"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <DataSomeValuesFrom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:idade"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <DataSomeValuesFrom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:idade"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <DataSomeValuesFrom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:idade"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="untitled-ontology-7:PessoaGrupoDeRisco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <DataSomeValuesFrom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:idade"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <ObjectUnionOf>
+                <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                    <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <DataSomeValuesFrom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:idade"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectUnionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <DataSomeValuesFrom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:idade"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="untitled-ontology-7:idade"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:integer"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+            <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+        </ObjectSomeValuesFrom>
+        <ObjectUnionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class abbreviatedIRI="untitled-ontology-7:Homem"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Mulher"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+        <NamedIndividual IRI="#AbdominalAna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+        <NamedIndividual IRI="#AbdominalCarlos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+        <NamedIndividual IRI="#AgachamentoAna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+            <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#AgachamentoAna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+        <NamedIndividual IRI="#BarraFixaPedro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+        <NamedIndividual IRI="#LegPressJoao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+            <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#LegPressJoao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+        <NamedIndividual IRI="#LevantamentoTerraMaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+        <NamedIndividual IRI="#PolichineloCarlos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+            <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PolichineloCarlos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+        <NamedIndividual IRI="#RemadaJoao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+        <NamedIndividual IRI="#RemadaPedro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+        <NamedIndividual IRI="#SupinoMaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Abdomen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:TroncoCentral"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Abdomen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:AgachamentoMaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:ExercicioMembrosInferiores"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:AgachamentoMaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+                <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:AgachamentoMaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+            <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:AgachamentoMaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Mulher"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Ana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Ana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Antebraco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:MembrosSuperiores"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Antebraco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Arritmia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Arritmia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Asma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Asma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Biceps"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:MembrosSuperiores"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Biceps"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaArticulacoes"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:BursiteNoOmbro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:BursiteNoOmbro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Homem"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Carlos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Carlos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:PessoaGrupoDeRisco"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Carlos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <ObjectUnionOf>
+                <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                    <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Carlos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Carlos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+            <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Carlos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaArticulacoes"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:CondromalaciaPatelar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:CondromalaciaPatelar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:OutrasRestricoes"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Diabetes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Diabetes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Dorsal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:MembrosSuperiores"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Dorsal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Objetivo"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Emagrecimento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaArticulacoes"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Epicondilite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Epicondilite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaColuna"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Escoliose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Escoliose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:EsteiraDoCarlos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Treino"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:EsteiraDoCarlos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:TreinoCardio"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:EsteiraDoCarlos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaArticulacoes"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:FascitePlantar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:FascitePlantar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Objetivo"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:GanharForca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Gluteos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Gluteos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:OutrasRestricoes"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Gravidez"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Gravidez"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaColuna"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:HerniaDeDisco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:HerniaDeDisco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaColuna"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Hipercifose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Hipercifose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaColuna"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Hiperlordose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Hiperlordose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Hipertensao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Hipertensao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Objetivo"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Hipertrofia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Hipotensao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Hipotensao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Intensidade"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeAlta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Intensidade"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeBaixa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Intensidade"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeModerada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Homem"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:João"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:João"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:João"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:PessoaGrupoDeRisco"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:João"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:PessoaProblemaColuna"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:João"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <ObjectUnionOf>
+                <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                    <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:João"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                <Class abbreviatedIRI="untitled-ontology-7:ProblemaColuna"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:João"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+            <DataSomeValuesFrom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:idade"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:João"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:João"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+            <Class abbreviatedIRI="untitled-ontology-7:ProblemaColuna"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:João"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="untitled-ontology-7:idade"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:integer"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:João"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:OutrasRestricoes"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Labirintite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Labirintite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LateralDoQuadril"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LateralDoQuadril"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LegPressAna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:ExercicioMembrosInferiores"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LegPressAna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+                <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LegPressAna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+            <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LegPressAna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaArticulacoes"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LesaoNoMaguitoRotador"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LesaoNoMaguitoRotador"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LevantamentoTerraPedro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaColuna"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Lombalgia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Lombalgia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Lombar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:TroncoCentral"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Lombar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Mulher"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Maria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Maria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:NivelExperiencia"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:NivelAvancado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:NivelExperiencia"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:NivelIniciante"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:NivelExperiencia"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:NivelIntermediario"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Ombros"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:MembrosSuperiores"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Ombros"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Panturrilhas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Panturrilhas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:ParteInternaDaCoxa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:ParteInternaDaCoxa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Homem"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Pedro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Pedro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Peitoral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:MembrosSuperiores"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Peitoral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:PlanoTreino"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDaAna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:PlanoTreino"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDaMaria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:PlanoTreino"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDoCarlos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:PlanoTreino"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDoJoao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:PlanoTreino"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDoPedro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PosteriorDaCoxa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PosteriorDaCoxa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Quadriceps"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Quadriceps"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Objetivo"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:ResistenciaMuscular"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Objetivo"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:SaudeBemEstar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:SupinoDoJoao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:ProblemaArticulacoes"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:TendinitePatelas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:TendinitePatelas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Trapezio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:MembrosSuperiores"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Trapezio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Triceps"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-7:MembrosSuperiores"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Triceps"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+        <NamedIndividual IRI="#AbdominalAna"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Abdomen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+        <NamedIndividual IRI="#AbdominalCarlos"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Abdomen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+        <NamedIndividual IRI="#AgachamentoAna"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeBaixa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+        <NamedIndividual IRI="#AgachamentoAna"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Quadriceps"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+        <NamedIndividual IRI="#BarraFixaPedro"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Biceps"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+        <NamedIndividual IRI="#LegPressJoao"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeBaixa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+        <NamedIndividual IRI="#LegPressJoao"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeModerada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+        <NamedIndividual IRI="#LegPressJoao"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Quadriceps"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+        <NamedIndividual IRI="#LevantamentoTerraMaria"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Lombar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+        <NamedIndividual IRI="#PolichineloCarlos"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Gluteos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+        <NamedIndividual IRI="#RemadaJoao"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeBaixa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+        <NamedIndividual IRI="#RemadaJoao"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeModerada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+        <NamedIndividual IRI="#RemadaJoao"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Trapezio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+        <NamedIndividual IRI="#RemadaPedro"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Trapezio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+        <NamedIndividual IRI="#SupinoMaria"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Peitoral"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:AgachamentoMaria"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Quadriceps"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Ana"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDaAna"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temObjetivo"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Ana"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Hipertrofia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Ana"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:CondromalaciaPatelar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Carlos"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDoCarlos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temObjetivo"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Carlos"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:SaudeBemEstar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Carlos"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Arritmia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:João"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDoJoao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temObjetivo"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:João"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Emagrecimento"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:João"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:HerniaDeDisco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LegPressAna"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeBaixa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LegPressAna"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Quadriceps"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LevantamentoTerraPedro"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Lombar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Maria"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDaMaria"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temNivelExperiencia"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Maria"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:NivelIniciante"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temObjetivo"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Maria"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Emagrecimento"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Pedro"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDoPedro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temNivelExperiencia"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Pedro"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:NivelAvancado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temObjetivo"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Pedro"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:GanharForca"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDaAna"/>
+        <NamedIndividual IRI="#AbdominalAna"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDaAna"/>
+        <NamedIndividual IRI="#AgachamentoAna"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDaAna"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LegPressAna"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDaMaria"/>
+        <NamedIndividual IRI="#LevantamentoTerraMaria"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDaMaria"/>
+        <NamedIndividual IRI="#SupinoMaria"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDaMaria"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:AgachamentoMaria"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDoCarlos"/>
+        <NamedIndividual IRI="#AbdominalCarlos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDoCarlos"/>
+        <NamedIndividual IRI="#PolichineloCarlos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDoCarlos"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:EsteiraDoCarlos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDoJoao"/>
+        <NamedIndividual IRI="#LegPressJoao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDoJoao"/>
+        <NamedIndividual IRI="#RemadaJoao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDoJoao"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:SupinoDoJoao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDoPedro"/>
+        <NamedIndividual IRI="#BarraFixaPedro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDoPedro"/>
+        <NamedIndividual IRI="#RemadaPedro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:PlanoDoPedro"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LevantamentoTerraPedro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:SupinoDoJoao"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeBaixa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:SupinoDoJoao"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeModerada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:SupinoDoJoao"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Peitoral"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+        <NamedIndividual IRI="#AbdominalAna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+        <NamedIndividual IRI="#AbdominalAna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+        <NamedIndividual IRI="#AbdominalAna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+        <NamedIndividual IRI="#AgachamentoAna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+        <NamedIndividual IRI="#AgachamentoAna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+        <NamedIndividual IRI="#AgachamentoAna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:dificuldade"/>
+        <NamedIndividual IRI="#BarraFixaPedro"/>
+        <Literal>Dificil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+        <NamedIndividual IRI="#BarraFixaPedro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+        <NamedIndividual IRI="#BarraFixaPedro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+        <NamedIndividual IRI="#BarraFixaPedro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">180</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+        <NamedIndividual IRI="#LegPressJoao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+        <NamedIndividual IRI="#LegPressJoao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+        <NamedIndividual IRI="#LegPressJoao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:dificuldade"/>
+        <NamedIndividual IRI="#LevantamentoTerraMaria"/>
+        <Literal>Facil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+        <NamedIndividual IRI="#LevantamentoTerraMaria"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+        <NamedIndividual IRI="#LevantamentoTerraMaria"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+        <NamedIndividual IRI="#LevantamentoTerraMaria"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+        <NamedIndividual IRI="#RemadaJoao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+        <NamedIndividual IRI="#RemadaJoao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+        <NamedIndividual IRI="#RemadaJoao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:dificuldade"/>
+        <NamedIndividual IRI="#RemadaPedro"/>
+        <Literal>Dificil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+        <NamedIndividual IRI="#RemadaPedro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+        <NamedIndividual IRI="#RemadaPedro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+        <NamedIndividual IRI="#RemadaPedro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">180</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:dificuldade"/>
+        <NamedIndividual IRI="#SupinoMaria"/>
+        <Literal>Facil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+        <NamedIndividual IRI="#SupinoMaria"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+        <NamedIndividual IRI="#SupinoMaria"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+        <NamedIndividual IRI="#SupinoMaria"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:dificuldade"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:AgachamentoMaria"/>
+        <Literal>Facil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:AgachamentoMaria"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:AgachamentoMaria"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:AgachamentoMaria"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:altura"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Ana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.68</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:idade"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Ana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:peso"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Ana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">62.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:altura"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Carlos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:peso"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Carlos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">92.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:duracaoRecomendada"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:EsteiraDoCarlos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:altura"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:João"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:idade"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:João"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:peso"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:João"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">90.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LegPressAna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LegPressAna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LegPressAna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:dificuldade"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LevantamentoTerraPedro"/>
+        <Literal>Dificil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LevantamentoTerraPedro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LevantamentoTerraPedro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:LevantamentoTerraPedro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">180</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:altura"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Maria"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:idade"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Maria"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:peso"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Maria"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">70.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:altura"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Pedro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.82</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:idade"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Pedro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:peso"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:Pedro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">88.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:dificuldade"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:SupinoDoJoao"/>
+        <Literal>Media</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:SupinoDoJoao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:SupinoDoJoao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:SupinoDoJoao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <AsymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:indicadoPara"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:recomendadoPara"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temNivelExperiencia"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temObjetivo"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+    </AsymmetricObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:indicadoPara"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:recomendadoPara"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temNivelExperiencia"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temObjetivo"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+        <Class abbreviatedIRI="untitled-ontology-7:PlanoTreino"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:indicadoPara"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Treino"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:recomendadoPara"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temNivelExperiencia"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temObjetivo"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:indicadoPara"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Objetivo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+        <Class abbreviatedIRI="untitled-ontology-7:PlanoTreino"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:recomendadoPara"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Intensidade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temNivelExperiencia"/>
+        <Class abbreviatedIRI="untitled-ontology-7:NivelExperiencia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temObjetivo"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Objetivo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+        <Class abbreviatedIRI="untitled-ontology-7:RestricaoFisica"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+        <Class abbreviatedIRI="untitled-ontology-7:GrupoMuscular"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:altura"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:dificuldade"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:duracaoRecomendada"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:idade"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:musculosTrabalhados"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:peso"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tipo"/>
+        <Class abbreviatedIRI="untitled-ontology-7:Exercicio"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:altura"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:dificuldade"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:duracaoRecomendada"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:idade"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:musculosTrabalhados"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:peso"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tipo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se a pessoa tem mais de 60 anos, a intensidade dos exercícios deve ser moderada para evitar lesões, independente do objetivo principal.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Regra de Segurança para Idosos (Idade &gt; 60)</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class abbreviatedIRI="untitled-ontology-7:Idoso"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/plano"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/plano"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+                <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeModerada"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se a pessoa tem CondromalaciaPatelar e o exercício trabalha algum músculo dos MembrosInferiores  (como Quadríceps ou Glúteos), a intensidade deve ser obrigatoriamente IntensidadeBaixa  para não desgastar a articulação.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Regra de Proteção de Joelho (Condromalácia)</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+                <NamedIndividual abbreviatedIRI="untitled-ontology-7:CondromalaciaPatelar"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/plano"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/plano"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:trabalhaGrupo"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/grupo"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class abbreviatedIRI="untitled-ontology-7:MembrosInferiores"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/grupo"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+                <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeBaixa"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se a pessoa tem problema de coluna, força uma intensidade &quot;Baixa&quot; nos exercícios dela, independente do objetivo.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Regra Restrição de Coluna</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+                <Variable IRI="http://www.semanticweb.org/douglasventura/ontologies/2025/10/p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                <Variable IRI="http://www.semanticweb.org/douglasventura/ontologies/2025/10/p"/>
+                <Variable IRI="http://www.semanticweb.org/douglasventura/ontologies/2025/10/restricao"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class abbreviatedIRI="untitled-ontology-7:ProblemaColuna"/>
+                <Variable IRI="http://www.semanticweb.org/douglasventura/ontologies/2025/10/restricao"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+                <Variable IRI="http://www.semanticweb.org/douglasventura/ontologies/2025/10/p"/>
+                <Variable IRI="http://www.semanticweb.org/douglasventura/ontologies/2025/10/plano"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+                <Variable IRI="http://www.semanticweb.org/douglasventura/ontologies/2025/10/plano"/>
+                <Variable IRI="http://www.semanticweb.org/douglasventura/ontologies/2025/10/ex"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temIntensidade"/>
+                <Variable IRI="http://www.semanticweb.org/douglasventura/ontologies/2025/10/ex"/>
+                <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeBaixa"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se a pessoa tem um ProblemaCardiovascular (como Hipertensão ou Arritmia) e o exercício é do tipo TreinoCardio, a duração recomendada é limitada a 20 minutos iniciais para controle de frequência cardíaca.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Regra de Segurança Cardiovascular (Limitação de Tempo)</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temRestricao"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/restricao"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class abbreviatedIRI="untitled-ontology-7:ProblemaCardiovascular"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/restricao"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/plano"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/plano"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class abbreviatedIRI="untitled-ontology-7:TreinoCardio"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:duracaoRecomendada"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se a pessoa é Avancado, o sistema sugere que a dificuldade do exercício seja &quot;Dificil&quot;, permitindo movimentos mais complexos.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Regra para Avançados</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temNivelExperiencia"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+                <NamedIndividual abbreviatedIRI="untitled-ontology-7:NivelAvancado"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/plano"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/plano"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:dificuldade"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+                <Literal>Dificil</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Se o nível de experiência da pessoa for Iniciante, a dificuldade técnica do exercício deve ser definida como &quot;Facil&quot;</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Regra para Iniciantes</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temNivelExperiencia"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+                <NamedIndividual abbreviatedIRI="untitled-ontology-7:NivelIniciante"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/plano"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/plano"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:dificuldade"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+                <Literal>Facil</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Define: 3 Séries, 15 Repetições (mais volume), 30s de descanso (mais intenso).</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Regra para Emagrecimento (Perda de Peso)</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temObjetivo"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+                <NamedIndividual abbreviatedIRI="untitled-ontology-7:Emagrecimento"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/plano"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/plano"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Define: 5 Séries, 4 Repetições (muita carga), 180s de descanso.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Regra para Ganhar Forca</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temObjetivo"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+                <NamedIndividual abbreviatedIRI="untitled-ontology-7:GanharForca"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/plano"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/plano"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">180</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Define: 4 Séries, 10 Repetições, 60s de descanso</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Regra para Hipertrofia (Ganho de Massa)</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temObjetivo"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+                <NamedIndividual abbreviatedIRI="untitled-ontology-7:Hipertrofia"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/plano"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/plano"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Para este objetivo, o foco é alto volume de repetições (20) com carga baixa.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Regra para Resistência Muscular Localizada</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temObjetivo"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+                <NamedIndividual abbreviatedIRI="untitled-ontology-7:ResistenciaMuscular"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/p"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/plano"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/plano"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+                <Variable IRI="http://www.semanticweb.org/jonat/ontologies/2025/10/untitled-ontology-7/ex"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
