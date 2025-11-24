@@ -1785,6 +1785,21 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+        <NamedIndividual IRI="#AbdominalCarlos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+        <NamedIndividual IRI="#AbdominalCarlos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+        <NamedIndividual IRI="#AbdominalCarlos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
         <NamedIndividual IRI="#AgachamentoAna"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
     </DataPropertyAssertion>
@@ -1852,6 +1867,21 @@
         <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
         <NamedIndividual IRI="#LevantamentoTerraMaria"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+        <NamedIndividual IRI="#PolichineloCarlos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+        <NamedIndividual IRI="#PolichineloCarlos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+        <NamedIndividual IRI="#PolichineloCarlos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
@@ -1957,6 +1987,21 @@
         <DataProperty abbreviatedIRI="untitled-ontology-7:duracaoRecomendada"/>
         <NamedIndividual abbreviatedIRI="untitled-ontology-7:EsteiraDoCarlos"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:EsteiraDoCarlos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:EsteiraDoCarlos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-7:EsteiraDoCarlos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="untitled-ontology-7:altura"/>
@@ -2396,6 +2441,58 @@
                 <Variable IRI="http://www.semanticweb.org/douglasventura/ontologies/2025/10/ex"/>
                 <NamedIndividual abbreviatedIRI="untitled-ontology-7:IntensidadeBaixa"/>
             </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="swrla:isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Ela define um treino equilibrado (padrão OMS para saúde).</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Regra para Saúde e Bem Estar</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class abbreviatedIRI="untitled-ontology-7:Pessoa"/>
+                <Variable IRI="#p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:temObjetivo"/>
+                <Variable IRI="#p"/>
+                <NamedIndividual abbreviatedIRI="untitled-ontology-7:SaudeBemEstar"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:recebePlano"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#plano"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="untitled-ontology-7:compostoPor"/>
+                <Variable IRI="#plano"/>
+                <Variable IRI="#ex"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:numeroSeries"/>
+                <Variable IRI="#ex"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:numeroRepeticoes"/>
+                <Variable IRI="#ex"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="untitled-ontology-7:tempoDescanso"/>
+                <Variable IRI="#ex"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+            </DataPropertyAtom>
         </Head>
     </DLSafeRule>
     <DLSafeRule>
